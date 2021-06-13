@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,800;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <section class="top">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-6 p-0">
+                    <div class="social">
+                        <ul>
+                            <li><a href="http://facebook.com"><i class="fab fa-facebook-f"></i><span> Facebook</span></a></li>
+                            <li><a href="http://twitter.com"><i class="fab fa-twitter"></i><span> Facebook</span></a></li>
+                            <li><a href="http://youtube.com"><i class="fab fa-facebook-f"></i><span> Facebook</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="top-info">
+                        <ul>
+                            <li>
+                            <i class="fas fa-mobile-alt"></i> 9849-xxx-xxx
+                            </li>
+                            <li>
+                            <i class="far fa-comment-alt"></i> noreply@example.com
+                            </li>
+                            <li>
+                            <i class="fas fa-map-marker"></i> Tyagal, Patan, Lalitpur
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header>
+        <div class="container py-3">
+            <div class="row align-items-center">
+                <div class="col-lg-3">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-7 px-0">
+                            <form>
+                                <input type="" name="" placeholder="Search for Product" class="searchtext">
+                                <select name="product_cat" id="product_cat" class="something">
+                                    <option value="0">All Category</option>
+                                    <option class="level-0" value="clothing">Clothing</option>
+                                    <option class="level-0" value="tshirts">Tshirts</option>
+                                    <option class="level-0" value="hoodies">Hoodies</option>
+                                    <option class="level-0" value="accessories">Accessories</option>
+                                    <option class="level-0" value="music">Music</option>
+                                    <option class="level-0" value="decor">Decor</option>
+                                    <option class="level-0" value="furniture">Furniture</option>
+                                    <option class="level-0" value="cooking">Cooking</option>
+                                    <option class="level-0" value="clocks">Clocks</option>
+                                    <option class="level-0" value="lighting">Lighting</option>
+                                    <option class="level-0" value="toys">Toys</option>
+                                    <option class="level-0" value="handmade">Handmade</option>
+                                    <option class="level-0" value="electronics">Electronics</option>
+                                    <option class="level-0" value="car">Car</option>
+                                    <option class="level-0" value="bike">Bike</option>
+                                </select>
+                                <button class="searchbtn"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="col-lg-5 cart-item px-0">
+                            <ul>
+                                <li><i class="far fa-user"></i> LOGIN / REGISTER </li>
+                                <li data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><i class="far fa-heart"></i> <span class="badge bg-secondary">0</span> </li>
+                                <li data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><i class="fas fa-sync-alt"></i> <span class="badge bg-secondary">0</span></li>
+                                <li><i class="fas fa-shopping-cart"></i> £ 0.00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="cat d-flex justify-content-between align-items-center"><i class="fas fa-bars"></i> Browse Categories <i class="fas fa-angle-down"></i></div>
+                </div>
+                <div class="col-lg-9">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                         
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ms-auto">
+                        
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">SPECIALS</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">SHOP</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">BLOG</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">20% OFF SALE</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">BLOG</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT US</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                              </li>
+                              <li class="nav-item buy">
+                                <a class="nav-link" href="#">
+                                    Buy Now</a>
+                              </li>
+                              
+                            </ul>
+                          </div>
+            
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="product_cats_menu">
+                    <ul>  
+                        <li><a href="#">Bike</a> </li>
+                        <li><a href="#">Car</a> </li>
+                        <li><a href="#">Bike</a> </li>
+                        <li><a href="#">Car</a> </li>
+                        <li><a href="#">Bike</a> </li>
+                        <li><a href="#">Car</a> </li>
+                        <li><a href="#">Bike</a> </li>
+                        <li><a href="#">Car</a> </li>
+                        <li><a href="#">Bike</a> </li>
+                        <li><a href="#">Car</a> </li>
+                        <li><a href="#">Bike</a> </li>
+                        <li><a href="#">Car</a> </li>
+                     
+                    </ul>
+                </div>
+                </div>
+                <div class="col-lg-9 pt-3">
+                    <img src="img/1.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <ul class="products columns-5" style="position: relative; height: 370.5px;">
+<li class="product type-product post-56 status-publish first instock product_cat-decor product_cat-furniture has-post-thumbnail featured shipping-taxable product-type-external" style="position: absolute; left: 0px; top: 0px;">
+<a href="https://bizbergthemes.com/bizberg-shop-lite/product/smart-watches-wood-edition/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="bizberg_woo_shop_image_wrap"><div class="secondary_image" style="background-image:url(https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-8-1.jpg?quality=100)"></div><img width="300" height="300" src="https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-8-300x300.jpg?quality=100&amp;f=auto" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-8-300x300.jpg?quality=100&amp;f=auto 300w,
+https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-8-150x150.jpg?quality=100&amp;f=auto 150w,
+https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-8-100x100.jpg?quality=100&amp;f=auto 100w,
+" sizes="(max-width: 300px) 100vw, 300px" loading="lazy"></div><h2 class="woocommerce-loop-product__title">Smart watches wood edition</h2></a><div class="bizberg_woocommerce_cat_wrap"><a href="https://bizbergthemes.com/bizberg-shop-lite/product/smart-watches-wood-edition/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a><a class="product_category_title" href="https://bizbergthemes.com/bizberg-shop-lite/product-category/decor/">Decor</a>, <a class="product_category_title" href="https://bizbergthemes.com/bizberg-shop-lite/product-category/furniture/">Furniture</a></div>
+<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>11.05</bdi></span></span>
+
+<div class="woocommerce_shop_loop_content">
+<div class="product-compare-wishlist">
+<p>Pellentesque habitant morbi tristique senectus et netus et…</p>
+<div class="bizberg_shop_add_to_cart"><a href="https://mercantile.wordpress.org/product/wordpress-pennant/" rel="nofollow" data-product_id="56" data-product_sku="wp-pennant" data-quantity="1" class="button th-button"><span>Buy on the WordPress swag store!</span></a></div><div class="wishlist_compare_wrapper compare_wishlist_both">
+<div class="bizberg_product_compare">
+<a class="compare" rel="nofollow" data-product_id="56" href="https://bizbergthemes.com/bizberg-shop-lite?action=yith-woocompare-add-product&amp;id=56" title="Compare">
+<i class="fas fa-sync-alt"></i>
+Compare </a>
+ </div>
+<div class="bizberg_product_wishlist">
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-56  wishlist-fragment on-first-load" data-fragment-ref="56" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:56,&quot;parent_product_id&quot;:56,&quot;product_type&quot;:&quot;external&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+
+<div class="yith-wcwl-add-button">
+<a href="?add_to_wishlist=56" rel="nofollow" data-product-id="56" data-product-type="external" data-original-product-id="56" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+<i class="yith-wcwl-icon fa fa-heart-o"></i> <span>Add to wishlist</span>
+</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<a href="#" class="button yith-wcqv-button" data-product_id="56">Quick View</a></li>
+<li class="product type-product post-55 status-publish instock product_cat-clothing product_cat-cooking has-post-thumbnail sale featured shipping-taxable product-type-grouped" style="position: absolute; left: 234px; top: 0px;">
+<a href="https://bizbergthemes.com/bizberg-shop-lite/product/penatibus-parturient-orci-morbi/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="bizberg_woo_shop_image_wrap"><div class="secondary_image" style="background-image:url(https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-furniture-18.jpg?quality=100)"></div>
+<span class="onsale">Sale!</span>
+<img width="300" height="300" src="https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-furniture-18-2-300x300.jpg?quality=100&amp;f=auto" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-furniture-18-2-300x300.jpg?quality=100&amp;f=auto 300w,
+https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-furniture-18-2-150x150.jpg?quality=100&amp;f=auto 150w,
+https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-furniture-18-2-100x100.jpg?quality=100&amp;f=auto 100w,
+" sizes="(max-width: 300px) 100vw, 300px" loading="lazy"></div><h2 class="woocommerce-loop-product__title">Penatibus parturient orci morbi</h2></a><div class="bizberg_woocommerce_cat_wrap"><a href="https://bizbergthemes.com/bizberg-shop-lite/product/penatibus-parturient-orci-morbi/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a><a class="product_category_title" href="https://bizbergthemes.com/bizberg-shop-lite/product-category/clothing/">Clothing</a>, <a class="product_category_title" href="https://bizbergthemes.com/bizberg-shop-lite/product-category/cooking/">Cooking</a></div>
+<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>18.00</bdi></span> – <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>45.00</bdi></span></span>
+
+<div class="woocommerce_shop_loop_content">
+<div class="product-compare-wishlist">
+<p>Pellentesque habitant morbi tristique senectus et netus et…</p>
+<div class="bizberg_shop_add_to_cart"><a href="https://bizbergthemes.com/bizberg-shop-lite/product/penatibus-parturient-orci-morbi/" rel="nofollow" data-product_id="55" data-product_sku="logo-collection" data-quantity="1" class="button th-button"><span>View products</span></a></div><div class="wishlist_compare_wrapper compare_wishlist_both">
+<div class="bizberg_product_compare">
+<a class="compare" rel="nofollow" data-product_id="55" href="https://bizbergthemes.com/bizberg-shop-lite?action=yith-woocompare-add-product&amp;id=55" title="Compare">
+<i class="fas fa-sync-alt"></i>
+Compare </a>
+</div>
+<div class="bizberg_product_wishlist">
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-55  wishlist-fragment on-first-load" data-fragment-ref="55" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:55,&quot;parent_product_id&quot;:55,&quot;product_type&quot;:&quot;grouped&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+
+<div class="yith-wcwl-add-button">
+<a href="?add_to_wishlist=55" rel="nofollow" data-product-id="55" data-product-type="grouped" data-original-product-id="55" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+<i class="yith-wcwl-icon fa fa-heart-o"></i> <span>Add to wishlist</span>
+</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<a href="#" class="button yith-wcqv-button" data-product_id="55">Quick View</a></li>
+<li class="product type-product post-42 status-publish instock product_cat-bike product_cat-hoodies has-post-thumbnail featured shipping-taxable purchasable product-type-simple" style="position: absolute; left: 468px; top: 0px;">
+<a href="https://bizbergthemes.com/bizberg-shop-lite/product/decoration-wooden-present/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="bizberg_woo_shop_image_wrap"><div class="secondary_image" style="background-image:url(https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-10-2.jpg?quality=100)"></div><img width="300" height="300" src="https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-10-300x300.jpg?quality=100&amp;f=auto" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-10-300x300.jpg?quality=100&amp;f=auto 300w,
+https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-10-150x150.jpg?quality=100&amp;f=auto 150w,
+https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-10-100x100.jpg?quality=100&amp;f=auto 100w,
+" sizes="(max-width: 300px) 100vw, 300px" loading="lazy"></div><h2 class="woocommerce-loop-product__title">Decoration wooden present</h2></a><div class="bizberg_woocommerce_cat_wrap"><a href="https://bizbergthemes.com/bizberg-shop-lite/product/decoration-wooden-present/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a><a class="product_category_title" href="https://bizbergthemes.com/bizberg-shop-lite/product-category/bike/">Bike</a>, <a class="product_category_title" href="https://bizbergthemes.com/bizberg-shop-lite/product-category/clothing/hoodies/">Hoodies</a></div>
+<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>45.00</bdi></span></span>
+
+<div class="woocommerce_shop_loop_content">
+<div class="product-compare-wishlist">
+<p>Pellentesque habitant morbi tristique senectus et netus et…</p>
+<div class="bizberg_shop_add_to_cart"><a href="?add-to-cart=42" rel="nofollow" data-product_id="42" data-product_sku="woo-hoodie-with-zipper" data-quantity="1" class="button th-button add_to_cart_button ajax_add_to_cart"><span>Add to cart</span></a></div><div class="wishlist_compare_wrapper compare_wishlist_both">
+<div class="bizberg_product_compare">
+<a class="compare" rel="nofollow" data-product_id="42" href="https://bizbergthemes.com/bizberg-shop-lite?action=yith-woocompare-add-product&amp;id=42" title="Compare">
+<i class="fas fa-sync-alt"></i>
+Compare </a>
+</div>
+<div class="bizberg_product_wishlist">
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-42  wishlist-fragment on-first-load" data-fragment-ref="42" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:42,&quot;parent_product_id&quot;:42,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+
+<div class="yith-wcwl-add-button">
+<a href="?add_to_wishlist=42" rel="nofollow" data-product-id="42" data-product-type="simple" data-original-product-id="42" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+<i class="yith-wcwl-icon fa fa-heart-o"></i> <span>Add to wishlist</span>
+</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<a href="#" class="button yith-wcqv-button" data-product_id="42">Quick View</a></li>
+<li class="product type-product post-40 status-publish instock product_cat-accessories has-post-thumbnail featured shipping-taxable purchasable product-type-simple" style="position: absolute; left: 702px; top: 0px;">
+<a href="https://bizbergthemes.com/bizberg-shop-lite/product/wooden-single-drawer/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="bizberg_woo_shop_image_wrap"><div class="secondary_image" style="background-image:url(https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-furniture-4-3.jpg?quality=100)"></div><img width="300" height="300" src="https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-furniture-4-2-300x300.jpg?quality=100&amp;f=auto" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-furniture-4-2-300x300.jpg?quality=100&amp;f=auto 300w,
+https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-furniture-4-2-150x150.jpg?quality=100&amp;f=auto 150w,
+https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-furniture-4-2-100x100.jpg?quality=100&amp;f=auto 100w,
+" sizes="(max-width: 300px) 100vw, 300px" loading="lazy"></div><h2 class="woocommerce-loop-product__title">Wooden single drawer</h2></a><div class="bizberg_woocommerce_cat_wrap"><a href="https://bizbergthemes.com/bizberg-shop-lite/product/wooden-single-drawer/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a><a class="product_category_title" href="https://bizbergthemes.com/bizberg-shop-lite/product-category/clothing/accessories/">Accessories</a></div>
+<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>90.00</bdi></span></span>
+
+<div class="woocommerce_shop_loop_content">
+<div class="product-compare-wishlist">
+<div class="bizberg_woo_star_rating">
+<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div><span class="bizberg_rating_count">(3)</span> </div>
+<p>Pellentesque habitant morbi tristique senectus et netus et…</p>
+<div class="bizberg_shop_add_to_cart"><a href="?add-to-cart=40" rel="nofollow" data-product_id="40" data-product_sku="woo-sunglasses" data-quantity="1" class="button th-button add_to_cart_button ajax_add_to_cart"><span>Add to cart</span></a></div><div class="wishlist_compare_wrapper compare_wishlist_both">
+<div class="bizberg_product_compare">
+<a class="compare" rel="nofollow" data-product_id="40" href="https://bizbergthemes.com/bizberg-shop-lite?action=yith-woocompare-add-product&amp;id=40" title="Compare">
+<i class="fas fa-sync-alt"></i>
+Compare </a>
+</div>
+<div class="bizberg_product_wishlist">
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-40  wishlist-fragment on-first-load" data-fragment-ref="40" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:40,&quot;parent_product_id&quot;:40,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+
+<div class="yith-wcwl-add-button">
+<a href="?add_to_wishlist=40" rel="nofollow" data-product-id="40" data-product-type="simple" data-original-product-id="40" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+<i class="yith-wcwl-icon fa fa-heart-o"></i> <span>Add to wishlist</span>
+</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<a href="#" class="button yith-wcqv-button" data-product_id="40">Quick View</a></li>
+<li class="product type-product post-39 status-publish last instock product_cat-accessories has-post-thumbnail sale featured shipping-taxable purchasable product-type-simple" style="position: absolute; left: 936px; top: 0px;">
+<a href="https://bizbergthemes.com/bizberg-shop-lite/product/amazing-pen-cup-wood/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="bizberg_woo_shop_image_wrap"><div class="secondary_image" style="background-image:url(https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-5-1.jpg?quality=100)"></div>
+<span class="onsale">Sale!</span>
+<img width="300" height="300" src="https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-5-300x300.jpg?quality=100&amp;f=auto" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-5-300x300.jpg?quality=100&amp;f=auto 300w,
+https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-5-150x150.jpg?quality=100&amp;f=auto 150w,
+https://cdn.statically.io/img/bizbergthemes.com/bizberg-shop-lite/wp-content/uploads/sites/33/2021/02/product-accessories-5-100x100.jpg?quality=100&amp;f=auto 100w,
+" sizes="(max-width: 300px) 100vw, 300px" loading="lazy"></div><h2 class="woocommerce-loop-product__title">Amazing pen cup wood</h2></a><div class="bizberg_woocommerce_cat_wrap"><a href="https://bizbergthemes.com/bizberg-shop-lite/product/amazing-pen-cup-wood/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a><a class="product_category_title" href="https://bizbergthemes.com/bizberg-shop-lite/product-category/clothing/accessories/">Accessories</a></div>
+<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>18.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>16.00</bdi></span></ins></span>
+
+<div class="woocommerce_shop_loop_content">
+<div class="product-compare-wishlist">
+<div class="bizberg_woo_star_rating">
+<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div><span class="bizberg_rating_count">(2)</span> </div>
+<p>Pellentesque habitant morbi tristique senectus et netus et…</p>
+<div class="bizberg_shop_add_to_cart"><a href="?add-to-cart=39" rel="nofollow" data-product_id="39" data-product_sku="woo-cap" data-quantity="1" class="button th-button add_to_cart_button ajax_add_to_cart"><span>Add to cart</span></a></div><div class="wishlist_compare_wrapper compare_wishlist_both">
+<div class="bizberg_product_compare">
+<a class="compare" rel="nofollow" data-product_id="39" href="https://bizbergthemes.com/bizberg-shop-lite?action=yith-woocompare-add-product&amp;id=39" title="Compare">
+<i class="fas fa-sync-alt"></i>
+Compare </a>
+</div>
+<div class="bizberg_product_wishlist">
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-39  wishlist-fragment on-first-load" data-fragment-ref="39" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:39,&quot;parent_product_id&quot;:39,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+
+<div class="yith-wcwl-add-button">
+<a href="?add_to_wishlist=39" rel="nofollow" data-product-id="39" data-product-type="simple" data-original-product-id="39" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+<i class="yith-wcwl-icon fa fa-heart-o"></i> <span>Add to wishlist</span>
+</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<a href="#" class="button yith-wcqv-button" data-product_id="39">Quick View</a></li>
+</ul>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+    <script>
+        tooltip.show();
+    </script>
+  </body>
+</html>
